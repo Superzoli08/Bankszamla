@@ -20,7 +20,10 @@ namespace Bankszamla
             }
             sr.Close();
 
-
+            foreach (var item in adatok)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }
