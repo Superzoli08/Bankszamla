@@ -11,7 +11,7 @@ namespace Bankszamla
         private string szamlaszam;
         private string tulajdonos;
         private decimal egyenleg;
-        private decimal hitelkeret;
+        private decimal hitelkeret; 
         private List<Bankszamla> tranzakciok = new List<Bankszamla>();
 
         public Bankszamla(string szamlaszam, string tulajdonos, decimal egyenleg)
@@ -19,6 +19,14 @@ namespace Bankszamla
             this.szamlaszam = szamlaszam;
             this.tulajdonos = tulajdonos;
             this.egyenleg = egyenleg;
+        }
+
+        // Add a private constructor for transaction records
+        private Bankszamla(decimal osszeg, string tipus)
+        {
+            this.szamlaszam = "";
+            this.tulajdonos = tipus;
+            this.egyenleg = osszeg;
         }
 
         public string GetSzamlaszam()
@@ -36,31 +44,20 @@ namespace Bankszamla
             return egyenleg;
         }
 
-        public void Befizetes(List<Bankszamla> adatok, decimal deposit)
+        public void Befizetes(decimal osszeg)
         {
-           foreach (var item in adatok)
-            {
-                if (item.GetSzamlaszam() == szamlaszam)
-                {
-                    item.egyenleg += deposit;
-                    tranzakciok.Add(new DateTime(), item.egyenleg, "befizetés");
-                }
-            }
+            this.egyenleg += osszeg;
+            tranzakciok.Add(new Bankszamla(osszeg, "befizetés"));
+            Console.WriteLine($"{osszeg} Ft befizetve. Új egyenleg: {egyenleg} Ft");
         }
 
-        public bool Kifizetes(List<Bankszamla> adatok, decimal withdraw)
+        public bool Kifizetes(decimal osszeg)
         {
-            foreach (var item in adatok)
+            if (egyenleg >= osszeg)
             {
-                if (item.GetSzamlaszam() == szamlaszam)
-                {
-                    if (item.egyenleg >= withdraw)
-                    {
-                        item.egyenleg -= withdraw;
-                        tranzakciok.Add(new DateTime(), item.egyenleg, "kifizetés");
-                        return true;
-                    }
-                }
+                this.egyenleg -= osszeg;
+                tranzakciok.Add(new Bankszamla(osszeg, "kifizetés"));
+                return true;
             }
             return false;
         }
