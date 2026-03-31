@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|j:\\2025-2026\\ikt c#\\bankszamla\\bankszamla\\bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|solutionrelative:bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\bankszamla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|solutionrelative:bankszamla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|j:\\2025-2026\\ikt c#\\bankszamla\\bankszamla\\bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|solutionrelative:bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Bankszamla.cs",
               "DocumentMoniker": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Bankszamla.cs",
               "RelativeDocumentMoniker": "Bankszamla\\Bankszamla.cs",
-              "ToolTip": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Bankszamla.cs*",
-              "RelativeToolTip": "Bankszamla\\Bankszamla.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "ToolTip": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Bankszamla.cs",
+              "RelativeToolTip": "Bankszamla\\Bankszamla.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T08:24:08.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Program.cs",
               "RelativeDocumentMoniker": "Bankszamla\\Program.cs",
-              "ToolTip": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Program.cs",
-              "RelativeToolTip": "Bankszamla\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "J:\\2025-2026\\IKT C#\\Bankszamla\\Bankszamla\\Bankszamla\\Program.cs*",
+              "RelativeToolTip": "Bankszamla\\Program.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T08:22:24.1Z",
               "EditorCaption": ""

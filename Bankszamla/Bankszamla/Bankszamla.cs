@@ -11,7 +11,7 @@ namespace Bankszamla
         private string szamlaszam;
         private string tulajdonos;
         private decimal egyenleg;
-        private decimal hitelkeret; 
+        private decimal hitelkeret;
         private List<Bankszamla> tranzakciok = new List<Bankszamla>();
 
         public Bankszamla(string szamlaszam, string tulajdonos, decimal egyenleg)
@@ -19,9 +19,9 @@ namespace Bankszamla
             this.szamlaszam = szamlaszam;
             this.tulajdonos = tulajdonos;
             this.egyenleg = egyenleg;
+            //this.hitelkeret = egyenleg * ( hitelkeret / 100 );
         }
 
-        // Add a private constructor for transaction records
         private Bankszamla(decimal osszeg, string tipus)
         {
             this.szamlaszam = "";
@@ -59,6 +59,16 @@ namespace Bankszamla
                 tranzakciok.Add(new Bankszamla(osszeg, "kifizetés"));
                 return true;
             }
+            return false;
+        }
+
+        public bool HitelkeretOsszeg()
+        {
+            return false;
+        }
+
+        public bool Utalas()
+        {
             return false;
         }
 
