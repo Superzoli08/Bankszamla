@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|c:\\users\\maja\\desktop\\h\u00E1zi\\11\\br\\bankszamla\\bankszamla\\bankszamla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|solutionrelative:bankszamla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53A55A55-E272-4123-8CE6-2F792855AB22}|Bankszamla\\Bankszamla.csproj|solutionrelative:bankszamla\\bankszamla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bankszamla.cs",
+              "DocumentMoniker": "C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\Bankszamla\\Bankszamla.cs",
+              "RelativeDocumentMoniker": "Bankszamla\\Bankszamla.cs",
+              "ToolTip": "C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\Bankszamla\\Bankszamla.cs",
+              "RelativeToolTip": "Bankszamla\\Bankszamla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T21:45:32.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\Bankszamla\\Program.cs",
+              "RelativeDocumentMoniker": "Bankszamla\\Program.cs",
+              "ToolTip": "C:\\Users\\Maja\\Desktop\\H\u00E1zi\\11\\br\\Bankszamla\\Bankszamla\\Bankszamla\\Program.cs",
+              "RelativeToolTip": "Bankszamla\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCkAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T21:45:32.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,3 +6,10 @@ J:\2025-2026\IKT C#\Bankszamla\Bankszamla\Bankszamla\bin\Debug\Bankszamla.pdb
 J:\2025-2026\IKT C#\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.exe
 J:\2025-2026\IKT C#\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.pdb
 J:\2025-2026\IKT C#\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.exe.config
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\bin\Debug\Bankszamla.exe.config
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\bin\Debug\Bankszamla.exe
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\bin\Debug\Bankszamla.pdb
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.csproj.AssemblyReference.cache
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.csproj.CoreCompileInputs.cache
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.exe
+C:\Users\Maja\Desktop\Házi\11\br\Bankszamla\Bankszamla\Bankszamla\obj\Debug\Bankszamla.pdb

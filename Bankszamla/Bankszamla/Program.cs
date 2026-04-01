@@ -26,15 +26,25 @@ namespace Bankszamla
             {
                 Console.WriteLine(item.ToString());
             }
-
+            string bankszamla;
             Console.WriteLine("Üdvözlünk a Bankban!");
-            Console.WriteLine("Kérem adja meg a bankszámlas");
+            Console.WriteLine("Kérem adja meg a bankszámlát: ");
+            bankszamla = Console.ReadLine();
+            foreach (var item in adatok)
+            {
+                if (item.GetSzamlaszam() == bankszamla)
+                {
+                    Console.WriteLine($"Üdvözöljük, {item.GetTulajdonos()}!");
+                }
+            }
+
+            Console.WriteLine("------------------Főmenü------------------");
+            Console.WriteLine(" 1. Egyenleg lekérdezés \n 2. Pénzbefizetés \n 3. Pénzkivétel \n 4. Utalás \n 5. Hitelkeret egyszeri módosítása \n 6. Kilépés a programból");
         }
 
         static void HitelkeretBeallitas(List<Bankszamla> lista)
         {
             decimal hitelkeret = int.MinValue;
-            Console.WriteLine("Üdvözöljük a Bankba!");
             Console.WriteLine("Még nem volt beállítva hitelkerete");
             Console.WriteLine("Ha nem szeretné, akkor automatikusan 20%-a lesz az ön nyitóegyenlegének");
             Console.ForegroundColor = ConsoleColor.Red;
